@@ -1,0 +1,34 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+    width: 200px;
+}
+
+article {
+    position: relative;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+h2, p {
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+
+article:hover p:last-of-type {
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
